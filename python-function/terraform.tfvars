@@ -1,3 +1,3 @@
-rg_base_name = "pglynn"
+rg_base_name = "<base name for RG>"
 
-region = "Central US"
+region = "<azure region>"
