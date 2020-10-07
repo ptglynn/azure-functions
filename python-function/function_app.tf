@@ -1,5 +1,5 @@
 resource "azurerm_function_app" "service_tags" {
-  name                      = "service-tags"
+  name                      = "service-tags-${random_pet.random_pet.id}"
   location                  = azurerm_resource_group.resource_group.location
   resource_group_name       = azurerm_resource_group.resource_group.name
   app_service_plan_id       = azurerm_app_service_plan.app_service_plan.id
